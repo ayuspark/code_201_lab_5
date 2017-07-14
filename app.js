@@ -56,15 +56,12 @@ Test this function by hand in the console to get it working, and when you think 
 // TODO: Write your code here
 function sumAndMultiply(a,b,c){ //eslint-disable-line
   var sumResult = 0;
+  var multiResult = 1;
   var array = [];
   array.push(a, b, c);
 
   for(var i = 0; i < array.length; i++) {
     sumResult = sum(sumResult, array[i])[0];
-  }
-
-  var multiResult = 1;
-  for(var i = 0; i < array.length; i++) {
     multiResult = multiply(multiResult, array[i])[0];
   }
 
