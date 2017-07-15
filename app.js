@@ -132,14 +132,14 @@ testMultiplyArray(2,3,4);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. You're done! Submit the link to the repo following the instructions in Canvas.
 
-document.getElementById("sum").innerHTML = "Tested: sum(4, 7) \n" + sum(4, 7)[1];
+document.getElementById("sum").innerHTML = "Tested: sum(4, 7)  <br /> " + sum(4, 7)[1];
 
-document.getElementById("multiply").innerHTML = "Tested: multiply(4, 7, 99) \n" + multiply(4, 7, 99)[1];
+document.getElementById("multiply").innerHTML = "Tested: multiply(4, 7, 99) <br />" + multiply(4, 7, 99)[1];
 
-document.getElementById("sumAndMultiply1").innerHTML = "Tested: sumAndMultiply(4, 7, 99) \n" + sumAndMultiply(4, 7, 99)[2];
+document.getElementById("sumAndMultiply1").innerHTML = "Tested: sumAndMultiply(4, 7, 99) <br />" + sumAndMultiply(4, 7, 99)[2];
 
-document.getElementById("sumAndMultiply2").innerHTML = "Tested: sum(4, 7)\n " + sumAndMultiply(4, 7, 99)[3];
+document.getElementById("sumAndMultiply2").innerHTML = "Tested: sum(4, 7)<br /> " + sumAndMultiply(4, 7, 99)[3];
 
-document.getElementById("sumArray").innerHTML = "Tested: sumArray([22,33,44]) \n" + sumArray([22, 33, 44])[1];
+document.getElementById("sumArray").innerHTML = "Tested: sumArray([22,33,44]) <br />" + sumArray([22, 33, 44])[1];
 
-document.getElementById("multiplyArray").innerHTML = "Tested: multiplyArray([22,33,44]) \n" + multiplyArray([22, 33, 44])[1];
+document.getElementById("multiplyArray").innerHTML = "Tested: multiplyArray([22,33,44]) <br />" + multiplyArray([22, 33, 44])[1];
