@@ -14,7 +14,7 @@ For TODO item, be sure to change it to say DONE when you have successfully compl
 function sum(a,b){ //eslint-disable-line
   var result = a + b;
   var message = 'The sum of ' + a + ' and ' + b + ' is ' + result + '.';
-  return [result, message]
+  return [result, message];
 }
 
 // TODO: Here is the test for sum(); uncomment it to run it
@@ -34,7 +34,7 @@ Test this function by hand in the console to get it working, and when you think 
 function multiply(a,b){ //eslint-disable-line
   var result = a * b;
   var message = 'The product of ' + a + ' and ' + b + ' is ' + result + '.';
-  return [result, message]
+  return [result, message];
 }
 
 // TODO: Here is the test for multiply(); uncomment it to run it
@@ -68,7 +68,7 @@ function sumAndMultiply(a,b,c){ //eslint-disable-line
   var message1 = a + ' and ' + b + ' and ' + c + ' sum to ' + sumResult + '.';
   var message2 = 'The product of ' + a + ' and ' + b + ' and ' + c + ' is ' + multiResult + '.';
 
-  return [sumResult, multiResult, message1, message2]
+  return [sumResult, multiResult, message1, message2];
 }
 
 // TODO: Here is the test for sumAndMultiply(); uncomment it to run it
@@ -97,7 +97,7 @@ function sumArray(testArray){ //eslint-disable-line
 
   var message = testArray + ' was passed in as an array of numbers, and ' + result + ' is their sum.';
 
-  return [result, message]
+  return [result, message];
 }
 
 // TODO: Here is the test for sumArray(); uncomment it to run it
@@ -119,7 +119,7 @@ Test this function by hand in the console to get it working, and when you think 
 function multiplyArray(testArray){ //eslint-disable-line
   var result_5 =  1;
   for (var i = 0; i < testArray.length; i ++) {
-    result_5 = multiply(result_5, testArray[i])[0]
+    result_5 = multiply(result_5, testArray[i])[0];
   }
 
   var message = 'The numbers ' + testArray + ' have a product of ' + result_5 + '.';
@@ -132,14 +132,14 @@ testMultiplyArray(2,3,4);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. You're done! Submit the link to the repo following the instructions in Canvas.
 
-document.getElementById("sum").innerHTML = "Tested: sum(4, 7)  <br /> " + sum(4, 7)[1];
+document.getElementById('sum').innerHTML = 'Tested: sum(4, 7)  <br /> ' + sum(4, 7)[1];
 
-document.getElementById("multiply").innerHTML = "Tested: multiply(4, 7, 99) <br />" + multiply(4, 7, 99)[1];
+document.getElementById('multiply').innerHTML = 'Tested: multiply(4, 7, 99) <br />' + multiply(4, 7, 99)[1];
 
-document.getElementById("sumAndMultiply1").innerHTML = "Tested: sumAndMultiply(4, 7, 99) <br />" + sumAndMultiply(4, 7, 99)[2];
+document.getElementById('sumAndMultiply1').innerHTML = 'Tested: sumAndMultiply(4, 7, 99) <br />' + sumAndMultiply(4, 7, 99)[2];
 
-document.getElementById("sumAndMultiply2").innerHTML = "Tested: sum(4, 7)<br /> " + sumAndMultiply(4, 7, 99)[3];
+document.getElementById('sumAndMultiply2').innerHTML = 'Tested: sum(4, 7)<br /> ' + sumAndMultiply(4, 7, 99)[3];
 
-document.getElementById("sumArray").innerHTML = "Tested: sumArray([22,33,44]) <br />" + sumArray([22, 33, 44])[1];
+document.getElementById('sumArray').innerHTML = 'Tested: sumArray([22,33,44]) <br />' + sumArray([22, 33, 44])[1];
 
-document.getElementById("multiplyArray").innerHTML = "Tested: multiplyArray([22,33,44]) <br />" + multiplyArray([22, 33, 44])[1];
+document.getElementById('multiplyArray').innerHTML = 'Tested: multiplyArray([22,33,44]) <br />' + multiplyArray([22, 33, 44])[1];
